@@ -5,8 +5,13 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Rethink Sans', sans-serif;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Rethink Sans', sans-serif; */
+    
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      
 }
 
 .main {
@@ -306,4 +311,53 @@ body {
 .seven-childs p {
     padding: 10px 15px 8px 10px;
     text-align: center;
+}
+
+.section-gyan{
+    margin-top: 3rem;
+
+}
+.gyan-child{
+    border: 0.1px solid #A8A7A9;
+    border-radius: 20px;
+    width: 350px;
+    padding: 10px;
+    height: 350px;
+    line-height: 1.2rem;
+    
+}
+.gyan{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-gyan h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 3rem 0 1.5rem 0;
+    word-spacing: 5px;
+
+}
+.gyan-subtitle{
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 20rem;
+    color: #212529 ;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    width: 60%;
+}
+.gyan-child h3{
+    margin: 1rem 0 1rem 0;
+    font-weight: 600;
+    font-size: small;
+}
+.gyan-child p{
+    color: #212529 ;
+   
+}
+.gyan-child img{
+    width: 340px;
+    border-radius: 10px;
+    margin-top: 0.5 rem;
 }
