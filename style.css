@@ -1,14 +1,15 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
-body{
+
+body {
     font-family: 'Montserrat', sans-serif;
-font-family: 'Rethink Sans', sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
 }
-.main{
+
+.main {
     width: 100%;
     height: 80vh;
     background-color: white;
@@ -17,7 +18,7 @@ font-family: 'Rethink Sans', sans-serif;
     align-items: center;
 }
 
-.mainhead{
+.mainhead {
     /* display: flex; */
     /* justify-content: space-evenly; */
     /* flex-direction:column ; */
@@ -28,25 +29,27 @@ font-family: 'Rethink Sans', sans-serif;
     font-size: 2rem;
     letter-spacing: 2px;
 }
-.headfont{
+
+.headfont {
     /* font-family: 'Montserrat', sans-serif; */
 
 }
-.image1{
- width: 650px;
- height: 500px;
- border-radius: 50%;
+
+.image1 {
+    width: 650px;
+    height: 500px;
+    border-radius: 50%;
 }
 
 
-.btn{
+.btn {
     display: flex;
     justify-content: space-between;
     width: 350px;
     margin-top: 1rem;
 }
-    
-.btn button{
+
+.btn button {
     background-color: rgb(34, 34, 34);
     color: white;
     padding: .7rem 1rem;
@@ -55,12 +58,13 @@ font-family: 'Rethink Sans', sans-serif;
     font-size: 1.1rem;
 }
 
-.svgimage{
+.svgimage {
     height: 85px;
     width: 85px;
     padding-right: 10px;
 }
-.slider{
+
+.slider {
     background-color: #C7FDFD;
     width: 100%;
     height: 200px;
@@ -69,7 +73,8 @@ font-family: 'Rethink Sans', sans-serif;
     justify-content: space-around;
     align-items: center;
 }
-.slider1{
+
+.slider1 {
     background-color: white;
     color: rgb(30, 28, 28);
     width: 400px;
@@ -137,7 +142,7 @@ font-family: 'Rethink Sans', sans-serif;
     margin-top: 5rem;
 }
 
-.services-head h1{
+.services-head h1 {
     text-align: center;
     margin-bottom: .5rem;
     font-size: 3rem;
@@ -152,7 +157,7 @@ font-family: 'Rethink Sans', sans-serif;
 .insurance {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .insurance div {
@@ -201,30 +206,34 @@ font-family: 'Rethink Sans', sans-serif;
     margin-right: 2rem;
 }
 
-.info-content-1  div h5 {
+.info-content-1 div h5 {
     font-size: 1.5rem;
 }
 
-.info-content-2  div h5 {
+.info-content-2 div h5 {
     font-size: 1.5rem;
 }
-.whyinsurance{
+
+.whyinsurance {
     width: 100%;
     height: 80vh;
     background-color: #F0F4FD;
 }
-.why-head{
+
+.why-head {
     display: flex;
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 25px;
 }
-.why-parent{
+
+.why-parent {
     display: flex;
-    justify-content:space-evenly 
+    justify-content: space-evenly
 }
-.why{
+
+.why {
     width: 400px;
     height: 400px;
 
@@ -234,16 +243,67 @@ font-family: 'Rethink Sans', sans-serif;
     background-color: white;
 
 }
-.why img{
+
+.why img {
     width: 400px;
     border-radius: 10px;
 }
-.why h2 p{
- padding: 10px;
-    
-    
+
+.why h2 p {
+    padding: 10px;
+
+
 }
-.why h2{
+
+.why h2 {
     padding-top: 7px;
     padding-bottom: 7px;
+}
+
+
+.section-seven {
+    background-color: #F1D1CE;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 3.5rem;
+    margin-top: 5rem;
+}
+
+.mobile-image {
+    width: 450px;
+    height: 450px;
+}
+
+.seven-child h2 {
+    font-size: 4rem;
+    margin-top: 3.5rem;
+    line-height: 50px;
+}
+
+.seven-child h4 {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    font-weight: 100;
+    color: #212529;
+}
+
+.seven-title {
+    display: flex;
+    align-items: center;
+}
+
+.svg-logo {
+    width: 40px;
+
+}
+
+.seven-childs {
+    display: flex;
+    color: #212529;
+}
+
+.seven-childs p {
+    padding: 10px 15px 8px 10px;
+    text-align: center;
 }
